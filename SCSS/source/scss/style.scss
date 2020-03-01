@@ -1,0 +1,23 @@
+@import "null.scss";
+
+.block{
+	padding: 30px;
+	font-size: 50px;
+	line-height: 30px;
+	>p{
+		color: green;
+	}
+	span{
+		color: red;
+	}
+	.block__text{
+		font-size: 80px;
+	}
+
+}
+a{
+	font-size: 50px;
+	&:hover{
+		color: black;
+	}
+}
